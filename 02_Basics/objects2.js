@@ -10,3 +10,14 @@ console.log(Object.keys(js1));
 console.log(Object.values(js2));
 
 console.log(js1.hasOwnProperty('1'))
+
+
+const course = {
+    courseName: 'Python With Omi',
+    price: 12000,
+    courseInstructor: "Aakash Panda"
+}
+
+// De-Structuring 
+const {courseInstructor: instructor} = course
+console.log(instructor)
